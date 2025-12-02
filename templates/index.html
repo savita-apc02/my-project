@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video to MP3 Converter</title>
+</head>
+<body>
+    <h2>Upload Video to Convert MP3</h2>
+
+    <form action="/convert" method="POST" enctype="multipart/form-data">
+        <input type="file" name="video" accept="video/*" required>
+        <br><br>
+        <button type="submit">Convert to MP3</button>
+    </form>
+</body>
+</html>
